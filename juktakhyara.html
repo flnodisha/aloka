@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern App Interface</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 100vh;
+        }
+
+        header {
+            width: 100%;
+            background-color: #ffffff;
+            text-align: center;
+        }
+
+        header img {
+            width: 100%;
+            max-height: 560px;
+            object-fit: cover;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 90%;
+            max-width: 400px;
+            margin-top: 20px;
+        }
+
+        .tile {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 80px;
+            border-radius: 10px;
+            color: white;
+            font-size: 22px;
+            font-weight: bold;
+            text-align: center;
+            cursor: pointer;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .tile:nth-child(1) {
+            background: linear-gradient(135deg, #eea2dd, #eb9fe4);
+        }
+
+        .tile:nth-child(2) {
+            background: linear-gradient(135deg, #83c3ee, #72aee7);
+        }
+
+        .tile:nth-child(3) {
+            background: linear-gradient(135deg, #43cea2, #7fe795);
+        }
+
+        .tile:nth-child(4) {
+            background: linear-gradient(135deg, #e7e07b, #f0da78);
+        }
+
+        .tile:nth-child(5) {
+            background: linear-gradient(135deg, #eea2dd, #eb9fe4);
+        }
+
+        .tile:nth-child(6) {
+            background: linear-gradient(135deg, #83c3ee, #72aee7);
+        }
+
+        .tile:hover {
+            transform: scale(1.05);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        a {
+            text-decoration: none;
+            color: inherit;
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="header-image.jpg" alt="Header Image">
+    </header>
+    <div class="container">
+        <div class="tile">
+            <a href="page1.html">ଗପ, ଗୀତ, ଚିତ୍ର</a>
+        </div>
+        <div class="tile">
+            <a href="page2.html">ଯୁକ୍ତାକ୍ଷର ପରିଚୟ</a>
+        </div>
+        <div class="tile">
+            <a href="page3.html">ପଠନ</a>
+        </div>
+        <div class="tile">
+            <a href="page4.html">ଲିଖନ</a>
+        </div>
+        <div class="tile">
+            <a href="page4.html">କାର୍ଯ୍ୟଫର୍ଦ</a>
+        </div>
+        <div class="tile">
+            <a href="page4.html">ଟ୍ରାକର</a>
+        </div>
+    </div>
+</body>
+</html>
